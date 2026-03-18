@@ -20,7 +20,12 @@ Add your Obsidian vault path to your user-space `~/.claude/CLAUDE.md`:
 OBSIDIAN_VAULT=/path/to/your/vault
 ```
 
-The skill reads this variable to locate your vault. Without it, no vault operations will work.
+Or just in plain text like
+```
+My obsidian vault is located at "/path/to/the/vault".
+```
+
+Without it, no vault operations will work.
 
 ## Usage
 
@@ -39,18 +44,6 @@ document this in obsidian
 ```
 
 The skill triggers automatically on phrases like "create a note", "add to vault", "search my notes", "new obsidian page", etc.
-
-## Default vault layout
-
-Used for new vaults (respects existing structure if present):
-
-```
-00 Inbox/          # quick capture, unprocessed notes
-10 Notes/          # evergreen, standalone notes
-20 Projects/       # project-specific docs
-90 Attachments/    # images, PDFs, diagrams
-99 Meta/           # templates, MOC pages, glossary
-```
 
 ## Limitations
 
