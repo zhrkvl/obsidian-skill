@@ -14,13 +14,12 @@ git clone git@github.com:zhrkvl/obsidian-skill.git ~/.claude/skills/obsidian
 
 ## Setup
 
-Add your Obsidian vault path to your user-space `~/.claude/CLAUDE.md`:
-
+Add your Obsidian vault path to your user-space as ENV variable:
 ```
 OBSIDIAN_VAULT=/path/to/your/vault
 ```
 
-Or just in plain text like
+Or just in plain text in `~/.claude/CLAUDE.md` like
 ```
 My obsidian vault is located at "/path/to/the/vault".
 ```
