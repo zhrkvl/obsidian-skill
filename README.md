@@ -9,7 +9,7 @@ Lets Claude create, read, search, and update Markdown notes in your Obsidian vau
 ## Installation
 
 ```bash
-git clone git@github.com:zhrkvl/obsidian-skill.git ~/.claude/skills/obsidian
+git clone https://github.com/zhrkvl/obsidian-skill.git ~/.claude/skills/obsidian
 ```
 
 ## Setup
